@@ -1,0 +1,8 @@
+name = "dupree_open_hours_block"
+description = "Dupree Creative dupree_open_hours_block Block"
+core = 7.x
+package = Dupree Creative
+dependencies[] = dupree_core
+scripts[] = js/dupree_open_hours_block.js
+stylesheets[all][] = css/dupree_open_hours_block.css
+

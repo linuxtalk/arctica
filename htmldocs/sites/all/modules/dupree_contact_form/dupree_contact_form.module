@@ -1,0 +1,23 @@
+<?php
+function dupree_contact_form_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_contact_form'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_contact_form_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_contact_form_view();
+      		break;
+ 	 }
+ 
+  	return $block;
+}
+

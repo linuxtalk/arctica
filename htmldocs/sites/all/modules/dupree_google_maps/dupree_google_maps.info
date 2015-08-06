@@ -1,0 +1,8 @@
+name = "dupree_google_maps"
+description = "Dupree Creative dupree_google_maps Block"
+core = 7.x
+package = Dupree Creative
+dependencies[] = dupree_core
+scripts[] = js/dupree_google_maps.js
+stylesheets[all][] = css/dupree_google_maps.css
+

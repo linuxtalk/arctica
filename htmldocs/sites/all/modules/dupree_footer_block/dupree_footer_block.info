@@ -1,0 +1,7 @@
+name = "dupree_footer_block"
+description = "Dupree Creative dupree_footer_block Block"
+core = 7.x
+package = Dupree Creative
+scripts[] = js/dupree_footer_block.js
+stylesheets[all][] = css/dupree_footer_block.css
+

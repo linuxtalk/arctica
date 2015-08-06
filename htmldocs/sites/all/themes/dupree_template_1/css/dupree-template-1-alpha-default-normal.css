@@ -1,0 +1,374 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+
+
+/*------- THIS IS ONLY SO I CAN SEE WHAT CSS FILE IS BEING USED -------*/
+/*html { 
+	border-left: 5px dotted  darkslategray !important;
+}
+html:after {
+	content: 'CSS: normal'; 
+	background-color: darkslategray;
+}*/
+
+
+
+/*------- RWD Bootstrap show / hide -------*/
+
+.show-phone {
+    display: none!important
+}
+.show-tablet {
+    display: none!important;
+}
+.show-desktop {
+    display: block!important;
+}
+
+
+.hide-phone {
+    display: block!important;
+}
+.hide-tablet {
+    display: block!important;
+}
+.hide-desktop {
+    display: none!important;
+}
+
+/*------- :END: RWD Bootstrap show / hide -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- FONTS ------- ------- ------- -------  -------*/
+
+
+body {
+	font-size: 14px;
+}
+
+/*------- ------- ------- ------- ------- :END: FONTS ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- BASE INFO ------- ------- ------- -------  -------*/
+
+
+#zone-menu #region-menu {
+	float: left;
+	clear: none;
+}
+
+/*------- ------- ------- ------- ------- :END: BASE INFO ------- ------- ------- -------  -------*/
+
+
+
+
+
+
+/*------- ------- ------- ------- ------- HEADER ------- ------- ------- -------  -------*/
+
+
+
+#block-dupree-header-block-my-block {
+	text-align: right;
+	margin: 10px 0 0px 0;
+}
+
+#section-header {
+	margin-bottom: 0px;
+}
+
+.breadcrumb {
+	padding: 0;
+	margin-bottom: 30px;
+	width: 100%;
+	background: none;
+}
+
+#region-user-first .contact_details {
+	display: block;
+}
+
+#region-user-first {
+	width: 780px;
+}
+
+
+#region-user-first .contact_details h2 {
+    margin: 0 0 7px 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.logo-img {
+	margin-top: 40px;
+}
+
+/*------- ------- ------- ------- ------- :END: HEADER ------- ------- ------- -------  -------*/
+
+
+
+
+
+
+/*------- ------- ------- ------- ------- MAIN TOP MENU DESKTOP ------- ------- ------- -------  -------*/
+
+
+#zone-menu nav {
+	margin: 10px 0;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	padding: 0px 17px;
+	display: block;
+	float: left;
+	/*line-height: 41px;*/
+	line-height: 35px; /*------- UPP EDIT -------*/
+}
+
+.navigation ul li a:hover {
+	text-decoration: none;
+}
+
+.navigation ul li {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*------- ------- ------- ------- ------- :END: MAIN TOP MENU DESKTOP ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+.field-name-field-sub-page-small-image {
+	width: 200px;
+	margin: 0 0 20px 20px;
+}
+
+
+/*------- ------- ------- ------- ------- :END: IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- BASE TYPOGRAPHY ------- ------- ------- -------  -------*/
+
+.caption p {
+	font-size: 0.8em;
+}
+
+
+/*------- ------- ------- ------- ------- :END: BASE TYPOGRAPHY ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- FORMS ------- ------- ------- -------  -------*/
+
+
+#frm_property_alert,
+#frm_valuation_request {
+width: 260px;
+padding: 10px 20px;
+border: none;
+}
+
+#frm_valuation_request {
+top: 97px;
+left: 170px;
+}
+
+#frm_property_alert {
+top: 97px;
+left: 480px;
+}
+
+#block-dupree-property-alert-my-block, 
+#block-dupree-valuation-request-my-block {
+	border: none;
+	margin: 0px 0 0 10px;
+	float: right;
+	width: 300px;
+}
+
+#block-dupree-property-alert-my-block a, 
+#block-dupree-valuation-request-my-block a {
+	padding: 4px 0;
+	width: 300px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.pane-dupree-property-alert-my-block, 
+.pane-dupree-valuation-request-my-block,
+.block-dupree-valuation-request  {
+	border: none;
+	margin: 0px 0 0 10px;
+	float: right;
+}
+
+.pane-dupree-property-alert-my-block a, 
+.pane-dupree-valuation-request-my-block a {
+	padding: 7px 0;
+	width: 300px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#block-dupree-property-alert-my-block a {
+	border-right: none;
+}
+
+#frm_property_alert input,
+#frm_valuation_request input {
+	padding: 3%;
+}
+
+/*------- ------- ------- ------- ------- :END: FORMS ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- VERBA ------- ------- ------- -------  -------*/
+
+
+
+/*#block-dupree-vebra-filter-my-block #search fieldset {
+	width: 100%;
+	margin-right: 0%;
+	float: left;
+}
+
+#block-dupree-vebra-filter-my-block #search fieldset #pricerange {
+	margin-right: 0%;
+	float: left;
+}
+
+#block-dupree-vebra-filter-my-block {
+	width: 20%;
+	float: left;
+	margin-right: 5%;
+}
+
+#block-dupree-vebra-search-my-block,
+.front #block-system-main  {
+	width: 70%;
+	float: right;
+	clear: none;
+}
+
+#block-dupree-vebra-filter-my-block #search button {
+	width: 100%;
+}*/
+
+/*------- ------- ------- ------- ------- :END: VERBA ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- TESTIMONIAL ------- ------- ------- -------  -------*/
+
+
+
+#Glidercontent_glider_0, 
+.glidecontent {
+	height: 120px!important;
+}
+
+
+/*------- ------- ------- ------- ------- :END: TESTIMONIAL ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+
+.hp_column_template_1 {
+	font-size: 0.6em;
+}
+
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+.homepage_template_basic_boxes_4 {
+	font-size: 0.6em;
+	width: 22%;
+	margin-right: 4%;
+}
+
+.panels-flexible-column-6-1,
+.panels-flexible-column-6-3 {
+	clear: none;
+}
+
+.panels-flexible-column-6-2 {
+	margin-right: 4%!important;
+}
+
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image-block, 
+.views_slideshow_cycle_slide {
+    height: 330px!important;
+    margin-bottom: 30px;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+#homepage_template_3 .field-collection-view {
+    padding: 10px;
+    margin: 70px 0 0 20px;
+	width: 525px;
+}
+
+#homepage_template_3 .pane-clone-of-homepage-template-header-slider-image-basic {
+    margin-bottom: 50px;
+}
+#homepage_template_3 .pane-homepage-template-4-basic-page-links {
+    margin-bottom: 50px;
+}
+
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image_text-block {
+    max-width: 100%!important;
+    display: block;
+    height: 330px!important;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+
+
+

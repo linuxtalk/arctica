@@ -1,0 +1,60 @@
+<?php
+
+function mobile_menu_block_info() {
+  $blocks = array();
+  $blocks['my_block'] = array(
+    'info' => t('Dupree Creative Mobile Menu'),
+  );
+ 
+  return $blocks;
+}
+
+function mobile_menu_block_view($delta='') {
+  $block = array();
+ 
+  switch($delta) {
+    case 'my_block' :
+      $block['content'] = mobile_menu_view();
+      break;
+  }
+ 
+  return $block;
+}
+
+function mobile_menu_view() {
+	$block = array();
+  
+	$sql = "select * from menu_links where menu_name='main-menu' and hidden=0 order by weight asc";
+	$query = db_query($sql);
+	$text = "
+	<div id=main-menu-mobile class=mobile_menu style=position:relative;z-index:500>
+	<button></button>
+	<ul style=display:none>
+	";
+	while ($result=$query->fetchAssoc()) {
+		$link_path=str_replace("<front>","",$result["link_path"]);
+		$text .= "<li><a href='/".$link_path."'>".$result["link_title"]."</a>";  
+	}
+	$text .= "
+	</ul>
+	</div>
+	<script type=text/javascript>
+		(function($){
+		$('#main-menu-mobile button').click(function() {
+			$('#main-menu-mobile ul').stop().slideToggle();
+		});
+		})(jQuery);
+	</script>
+	";
+  
+ 
+  $block = array(
+    'message' => array(
+      '#type' => 'markup',
+      '#markup' => $text,
+      '#suffix' => '</div>',
+    ),
+  );
+ 
+  return $block;
+}

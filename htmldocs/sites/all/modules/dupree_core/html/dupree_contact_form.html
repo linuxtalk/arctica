@@ -1,0 +1,22 @@
+<h2>Enquiry Form</h2>
+<form>
+<fieldset>
+<legend>Enter your email address here...</legend>
+<input name=email id=email>
+</fieldset>
+<fieldset>
+<legend>Enter your name here...</legend>
+<input name=name id=name>
+</fieldset>
+<fieldset>
+<legend>Add a subject title...</legend>
+<input name=subject id=subject value="General query">
+</fieldset>
+<fieldset>
+<legend>Write your question here...</legend>
+<textarea name=question id=question></textarea>
+</fieldset>
+<input type=hidden value="<?php echo variable_get('dup_contact_form_email') ?>" id=send_to name=send_to>
+<input type=hidden value="<?php echo variable_get('dup_contact_form_name') ?>" id=send_to_name name=send_to_name>
+<button>Ask your question...</button>
+</form>

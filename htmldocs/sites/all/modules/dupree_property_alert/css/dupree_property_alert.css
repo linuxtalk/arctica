@@ -1,0 +1,13 @@
+#frm_property_alert {
+	display: none;
+	position: absolute;
+	background-color:white;
+	z-index: 510;
+	/*padding: 20px;*/
+	/*border: 1px solid black;*/
+}
+
+.block-dupree-property-alert {
+	float:left;
+	margin-left: 25px;
+}

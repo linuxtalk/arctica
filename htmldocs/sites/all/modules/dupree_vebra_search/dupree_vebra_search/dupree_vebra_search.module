@@ -1,0 +1,52 @@
+<?php
+function dupree_vebra_search_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_vebra_search'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_vebra_search_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_vebra_search_view();
+      		break;
+ 	 }
+ 
+  	return $block;
+}
+
+function get_inner_html( $node ) { 
+    $innerHTML= ''; 
+    $children = $node->childNodes; 
+    foreach ($children as $child) { 
+        $innerHTML .= $child->ownerDocument->saveXML( $child ); 
+    } 
+
+    return $innerHTML; 
+} 
+
+function dupree_vebra_search_view() {
+	$block = array();
+    #$doc = new DOMDocument();
+	#$doc->loadHTMLFile('http://www.vebra.com/mooreslettings/property/search/2');
+	#$doc->loadHTMLFile('http://www.vebra.com/mooreslettings/property/search/results/2/1');
+	#$element = $doc->getElementById("maincontent3");  
+    #$text = get_inner_html($element);
+	#$html = file_get_contents("http://www.vebra.com/mooreslettings/property/search/2");
+	#$text = $element[1]->innertext;
+	$text = "<div id=vebra_window><iframe id=sandboxed src=\"http://www.vebra.com/mooreslettings/property/search/2\" ></iframe></div>";
+	$block = array(
+   		 'message' => array(
+     		 '#type' => 'markup',
+     		 '#markup' => $text,
+     		 '#suffix' => '</div>',
+    		),
+  	);
+  	return $block;
+}

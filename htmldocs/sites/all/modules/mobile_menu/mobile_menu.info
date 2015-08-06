@@ -1,0 +1,4 @@
+name = "Mobile Menu"
+description = "Dupree Creative Mobile Menu Block"
+core = 7.x
+package = Dupree Creative

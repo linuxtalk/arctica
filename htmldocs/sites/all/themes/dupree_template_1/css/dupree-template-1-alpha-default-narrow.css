@@ -1,0 +1,456 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+
+/*------- THIS IS ONLY SO I CAN SEE WHAT CSS FILE IS BEING USED -------*/
+/*html { 
+	border-left: 5px dotted  red!important;
+}
+html:after {
+	content: 'CSS: narrow'; 
+	background-color: red;
+}*/
+
+
+
+/*------- RWD Bootstrap show / hide -------*/
+
+.show-phone {
+    display: none!important;
+}
+.show-tablet {
+    display: block!important;
+}
+.show-desktop {
+    display: none!important;
+}
+
+
+.hide-phone {
+    display: block!important;
+}
+.hide-tablet {
+    display: none!important;
+}
+.hide-desktop {
+    display: block!important;
+}
+
+/*------- :END: RWD Bootstrap show / hide -------*/
+
+
+
+/*------- ------- ------- ------- ------- FONTS ------- ------- ------- -------  -------*/
+
+
+body {
+	font-size: 13px;
+}
+
+#homepage_template_3 .field-name-field-title-text{
+	line-height: 1.2em;
+}
+
+#homepage_template_3 .field-name-field-standfirst {
+    font-size: 1.2em;
+}
+
+/*------- ------- ------- ------- ------- :END: FONTS ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- MAIN IMAGE ------- ------- ------- -------  -------*/
+
+
+
+.view-homepage-header-image {
+	max-height: 330px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	display: block;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: MAIN IMAGE ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- BASE TYPOGRAPHY ------- ------- ------- -------  -------*/
+
+
+.field-name-field-opening-paragraph {
+	font-size: 1.3em;
+	line-height: 1.9em;
+	margin-bottom: 1.5em;
+}
+
+#homepage_template_3 .field-name-field-title-text {
+	/*font-size: 30px;*/ /*font-size: 2.5em;*/
+}
+
+/*------- ------- ------- ------- ------- :END: BASE TYPOGRAPHY ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- HEADER ------- ------- ------- -------  -------*/
+
+
+
+#section-header {
+	margin-bottom: 0px;
+}
+
+
+.breadcrumb {
+	margin-bottom: 30px;
+	width: 88%;
+	float: right;
+}
+
+#region-user-first {
+	width: 700px;
+}
+
+/*------- ------- ------- ------- ------- :END: HEADER ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- MOBILE MENU ------- ------- ------- -------  -------*/
+
+
+.mobile_menu {
+	width: 90%;
+	float: right;
+}
+
+#region-header-first img {
+	max-height: none;
+	width: 10%;
+	max-width: 10%;
+	height: auto;
+	z-index: 50;
+}
+
+#mobile_contact_header h2 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+	margin-top: -32px;
+	margin-bottom: 7px;
+	color: #fff;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: MOBILE MENU ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- FORMS ------- ------- ------- -------  -------*/
+
+
+#frm_property_alert,
+#frm_valuation_request {
+	width: 96%;
+	padding: 2%;
+	border: none;
+}
+
+#frm_valuation_request {
+	top: 44px;
+	left: 0;
+}
+
+#frm_property_alert {
+	top: 44px;
+	left: 0;
+}
+
+#block-dupree-property-alert-my-block, 
+#block-dupree-valuation-request-my-block {
+	border: none;
+	margin: 0px;
+	float: left;
+	width: 50%;
+}
+
+#block-dupree-property-alert-my-block a, 
+#block-dupree-valuation-request-my-block a {
+	padding: 7px 0;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#block-dupree-property-alert-my-block a {
+	border-right: 1px solid #fff;
+}
+
+.pane-dupree-property-alert-my-block, 
+.pane-dupree-valuation-request-my-block,
+.block-dupree-valuation-request {
+	border: none;
+	margin: 0px; 
+	padding: 0;
+}
+
+#frm_property_alert input,
+#frm_valuation_request input {
+	padding: 1%;
+}
+
+
+/*------- ------- ------- ------- ------- :END: FORMS ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+.field-name-field-sub-page-large-image img {
+	width: 100%;
+	margin-left: 0;
+}
+
+.field-name-field-sub-page-small-image {
+	width: 150px;
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.field-name-field-sub-page-small-image .field-item,
+.field-name-field-sub-page-small-image .field-item.odd {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+
+/*------- ------- ------- ------- ------- :END: IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- VERBA ------- ------- ------- -------  -------*/
+
+/*
+#block-dupree-vebra-filter-my-block #search fieldset {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	clear: left;
+}
+
+#block-dupree-vebra-filter-my-block #search fieldset#pricerange {
+	margin-right: 0%;
+	float: right;
+	clear: none;
+}
+
+#block-dupree-vebra-filter-my-block {
+	width: 96%;
+	border: 1px dotted #ccc;
+	padding: 2%;
+	margin-bottom: 30px;
+}
+
+#block-dupree-vebra-filter-my-block #search button {
+	width: 48%;
+}*/
+
+/*------- ------- ------- ------- ------- :END: VERBA ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- CONTACT REQUEST & GOOGLE MAP ------- ------- ------- -------  -------*/
+
+
+
+#block-dupree-contact-form-my-block {
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 500px;
+}
+
+#block-dupree-google-maps-my-block {
+	/*width: 50%;*/
+	width: 100%;
+	float: right;
+	margin-bottom: 30px;
+}
+
+#block-dupree-google-maps-my-block td img {
+	width: 80%; 
+	float: right;
+}
+
+#block-dupree-google-maps-my-block table td {
+	font-size: 0.9em;
+}
+
+#block-dupree-google-maps-my-block hr {
+	display: none;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: CONTACT REQUEST & GOOGLE MAP ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- ARTICLES ------- ------- ------- -------  -------*/
+
+
+.more_articles_list .views-row {
+    width: 46%;
+}
+.more_articles_list .views-row-odd {
+    margin-right: 8%;
+}
+/*------- ------- ------- ------- ------- :END: ARTICLES ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- TESTIMONIAL ------- ------- ------- -------  -------*/
+
+
+
+#Glidercontent_glider_0, 
+.glidecontent {
+	height: 150px!important;
+}
+
+
+/*------- ------- ------- ------- ------- :END: TESTIMONIAL ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- FOOTER ------- ------- ------- -------  -------*/
+
+.easy_social-widget {
+	/*width: 85px;*/
+}
+
+/*------- ------- ------- ------- ------- :END: FOOTER ------- ------- ------- -------  -------*/
+
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+.hp_column_template_1 {
+	width: 30%;
+	margin-right: 5%;
+	font-size: 0.6em;
+}
+
+.panels-flexible-column-last.hp_column_template_1 {
+	margin-right: 0!important;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+.homepage_template_basic_boxes_4 {
+	width: 49%;
+	margin-right: 2%;
+	font-size: 0.6em;
+}
+
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image-block, 
+.views_slideshow_cycle_slide {
+	display: block;
+    height: 246px!important;
+    margin-bottom: 30px;
+}
+
+.panels-flexible-column-6-1,
+.panels-flexible-column-6-3 {
+	clear: both;
+}
+
+.panels-flexible-column-6-2,
+.panels-flexible-column-6-4 {
+	margin-right: 0!important;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+#homepage_template_3 .field-collection-view {
+	background: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	z-index: 9999;
+	padding: 10px;
+	margin: 20px 0 0 20px;
+	width: 405px;
+}
+#homepage_template_3 .field-name-field-homepage-main-image {
+    position: relative;
+}
+#homepage_template_3 .field-collection-container {
+    border-bottom: none!important;
+    margin: 0;
+}
+#homepage_template_3 h2.node-title {
+    display: none;
+}
+
+#homepage_template_3 .pane-clone-of-homepage-template-header-slider-image-basic {
+    margin-bottom: 50px;
+}
+#homepage_template_3 .pane-homepage-template-4-basic-page-links {
+    margin-bottom: 50px;
+}
+
+article#node-homepage-slider-images-with-text-18 {
+    width: 100%;
+}
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image_text-block {
+    max-width: 100%!important;
+    display: block;
+    height: 246px!important;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+
+

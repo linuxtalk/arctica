@@ -1,0 +1,23 @@
+<?php
+function dupree_valuation_request_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_valuation_request'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_valuation_request_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_valuation_request_view();
+      		break;
+ 	 }
+  	return $block;
+}
+
+

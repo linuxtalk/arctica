@@ -1,0 +1,216 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+
+
+
+
+/*------- THIS IS ONLY SO I CAN SEE WHAT CSS FILE IS BEING USED -------*/
+/*html { 
+	border-left: 5px dotted  goldenrod!important;
+}
+html:after {
+	content: 'CSS: wide'; 
+	background-color: goldenrod;
+}*/
+
+
+
+/*------- RWD Bootstrap show / hide -------*/
+
+.show-phone {
+    display: none!important;
+}
+.show-tablet {
+    display: none!important;
+}
+.show-desktop {
+    display: block!important;
+}
+
+
+.hide-phone {
+    display: block!important;
+}
+.hide-tablet {
+    display: block!important;
+}
+.hide-desktop {
+    display: none!important;
+}
+
+/*------- :END: RWD Bootstrap show / hide -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- FONTS ------- ------- ------- -------  -------*/
+
+
+body {
+    font-size: 15px;
+}
+
+/*------- ------- ------- ------- ------- :END: FONTS ------- ------- ------- -------  -------*/
+
+
+
+/*------- ------- ------- ------- ------- HEADER ------- ------- ------- -------  -------*/
+
+
+
+#section-header {
+    margin-bottom: 0px;
+}
+
+#region-user-first {
+    width: 980px;
+}
+
+#region-user-first .contact_details h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+/*------- ------- ------- ------- ------- :END: HEADER ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- MAIN TOP MENU DESKTOP ------- ------- ------- -------  -------*/
+
+
+#zone-menu nav {
+    /*margin: 39px 0 20px 0;*/
+    margin: 12px 0 20px 0; /*------- ARC EDIT -------*/  
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    display: block;
+    float: left;
+    line-height: 41px;
+}
+
+.navigation ul li a:hover {
+    text-decoration: none;
+}
+
+.navigation ul li {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/*------- ------- ------- ------- ------- :END: MAIN TOP MENU DESKTOP ------- ------- ------- -------  -------*/
+
+
+
+
+
+
+/*------- ------- ------- ------- ------- IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+.field-name-field-sub-page-small-image {
+	width: 250px;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: IMAGE STYLES ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- FORMS ------- ------- ------- -------  -------*/
+
+
+#block-dupree-property-alert-my-block a, 
+#block-dupree-valuation-request-my-block a {
+    padding: 7px 0;
+}
+
+#frm_valuation_request {
+top: 108px;
+left: 370px;
+}
+
+#frm_property_alert {
+top: 108px;
+left: 680px;
+}
+
+
+
+/*------- ------- ------- ------- ------- :END: FORMS ------- ------- ------- -------  -------*/
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+
+.hp_column_template_1 {
+    font-size: 0.5em;
+}
+
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 1 ------- ------- ------- -------  -------*/
+
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+.homepage_template_basic_boxes_4 {
+    font-size: 0.5em;
+}
+
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image-block, 
+.views_slideshow_cycle_slide {
+    height: 414px!important;
+    margin-bottom: 30px;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 2 ------- ------- ------- -------  -------*/
+
+
+
+
+
+/*------- ------- ------- ------- ------- HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+#homepage_template_3 .field-collection-view {
+    padding: 10px;
+    margin: 90px 0 0 20px;
+    width: 525px;
+}
+
+#homepage_template_3 .pane-clone-of-homepage-template-header-slider-image-basic {
+    margin-bottom: 50px;
+}
+#homepage_template_3 .pane-homepage-template-4-basic-page-links {
+    margin-bottom: 50px;
+}
+
+#views_slideshow_cycle_teaser_section_homepage_header_slider_image_text-block {
+    max-width: 100%!important;
+    height: 414px!important;
+    display: block;
+}
+
+/*------- ------- ------- ------- ------- :END: HOMEPAGE TEMPLATE 3 ------- ------- ------- -------  -------*/
+
+
+
+
+
+

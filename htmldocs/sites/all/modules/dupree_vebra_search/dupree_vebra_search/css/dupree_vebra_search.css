@@ -1,0 +1,16 @@
+div#vebra_window {
+	width: 899px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+
+div#vebra_window iframe {
+	position: absolute;
+	left: -53px;
+	top: -391px;
+	height:1000px;
+	width:1000px;
+}
+
+

@@ -1,0 +1,67 @@
+div#vebra_window {
+	width: 899px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+
+div#vebra_window iframe {
+	position: absolute;
+	left: -53px;
+	top: -391px;
+	height:1000px;
+	width:1000px;
+}
+#s-utilbar,#s-utilbar-1, 
+#s-savesearch,#s-savesearch-0, 
+#save-search-0,#savesearch-0,#searchname-0, #s-pagenavtop,#s-pagenavtop-1, #s-pagenavbottom,#s-pagenavbottom-1, .rsbl {
+	display:none;
+}
+
+.s-rsprop {
+	display:none;
+}
+
+#property_details {
+	background-color: white;
+	border:1px solid black;
+	width: 100%;
+	min-height: 250px;
+	padding:10px;
+}
+
+#s-dtdesc {
+	clear: both;
+}
+
+#s-dtimglist li {
+ float:left;
+}
+
+#s-dtimglist img {
+	width:100px !important;
+}
+#s-dtimg img {
+	width:250px !important;
+}
+
+#hip-info img {
+	width:250px !important;
+}
+
+#s-dtbuttonlist {
+	display: none;
+}
+
+#prop_count {
+	display:none;
+}
+
+div.verba_property_details div.main_photo  img{
+	width: 450px;
+}
+
+div.verba_property_details div.sub_photo img {
+	width: 150px;
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+name = "dupree_header_block"
+description = "Dupree Creative dupree_header_block Block"
+core = 7.x
+package = Dupree Creative
+scripts[] = js/dupree_header_block.js
+stylesheets[all][] = css/dupree_header_block.css
+

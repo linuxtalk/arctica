@@ -1,0 +1,24 @@
+<?php
+function dupree_location_block_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_location_block'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_location_block_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_location_block_view();
+      		break;
+ 	 }
+ 
+  	return $block;
+}
+
+

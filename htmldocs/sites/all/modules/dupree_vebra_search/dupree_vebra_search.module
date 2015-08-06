@@ -1,0 +1,23 @@
+<?php
+function dupree_vebra_search_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_vebra_search'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_vebra_search_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_vebra_search_view();
+      		break;
+ 	 }
+ 
+  	return $block;
+}
+

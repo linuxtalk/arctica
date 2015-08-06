@@ -1,0 +1,24 @@
+<?php
+function dupree_open_hours_block_block_info() {
+  	$blocks = array();
+	$blocks['my_block'] = array(
+    		'info' => t('Dupree Creative dupree_open_hours_block'),
+  	);
+ 
+  	return $blocks;
+}
+
+function dupree_open_hours_block_block_view($delta='') {
+
+  	$block = array();
+ 
+  	switch($delta) {
+    		case 'my_block' :
+      		$block['content'] = dupree_open_hours_block_view();
+      		break;
+ 	 }
+ 
+  	return $block;
+}
+
+

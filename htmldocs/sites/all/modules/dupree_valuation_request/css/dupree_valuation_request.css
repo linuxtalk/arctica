@@ -1,0 +1,20 @@
+#frm_valuation_request {
+	display: none;
+	position: absolute;
+	background-color:white;
+	z-index: 510;
+/*	padding: 20px;
+	border: 1px solid black;*/
+}
+
+.block-dupree-valuation-request {
+	float:left;
+	padding-left: 10px;
+	border-left: 1px solid black;
+	margin-left: 10px;
+}
+
+#region-menu {
+	clear: both;
+
+}

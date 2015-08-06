@@ -1,0 +1,31 @@
+<a id=btn_valuation_request href="">Book a valuation</a>
+<form id=frm_valuation_request>
+<fieldset>
+<legend>Title</legend>
+<input id=vr_title>
+</fieldset>
+<fieldset>
+<legend>First Name</legend>
+<input id=name>
+</fieldset>
+<fieldset>
+<legend>Last Name</legend>
+<input id=vr_lname>
+</fieldset>
+<fieldset>
+<legend>Email address</legend>
+<input id=email>
+</fieldset>
+<fieldset>
+<legend>Mobile</legend>
+<input id=vr_mobile>
+</fieldset>
+<fieldset>
+<legend>Address of property to be let</legend>
+<textarea id=vr_address></textarea>
+</fieldset>
+<input type=hidden value="<?php echo variable_get('dup_valuation_request_email') ?>" id=send_to name=send_to>
+<input type=hidden value="<?php echo variable_get('dup_valuation_request_name') ?>" id=send_to_name name=send_to_name>
+<input type=hidden value="Valuation Request" id=subject name=subject>
+<button id=btn_submit_valuation_request>Request Valuation</button>
+</form>

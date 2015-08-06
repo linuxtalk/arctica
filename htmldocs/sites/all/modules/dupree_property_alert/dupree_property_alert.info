@@ -1,0 +1,8 @@
+name = "dupree_property_alert"
+description = "Dupree Creative dupree_property_alert Block"
+core = 7.x
+package = Dupree Creative
+dependencies[] = dupree_core
+scripts[] = js/dupree_property_alert.js
+stylesheets[all][] = css/dupree_property_alert.css
+

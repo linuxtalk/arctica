@@ -1,0 +1,55 @@
+<a id=btn_property_alert href=""><span class=show-phone>Property alerts</span><span class=hide-phone>Register for property alerts</span></a>
+<form id=frm_property_alert>
+<fieldset>
+<legend>Title</legend>
+<input id=pa_title>
+</fieldset>
+<fieldset>
+<legend>First Name</legend>
+<input id=name>
+</fieldset>
+<fieldset>
+<legend>Last Name</legend>
+<input id=pa_lname>
+</fieldset>
+<fieldset>
+<legend>Email address</legend>
+<input id=email>
+</fieldset>
+<fieldset>
+<legend>Mobile</legend>
+<input id=pa_mobile>
+</fieldset>
+<fieldset>
+<legend>Preferred Location</legend>
+<ul>
+<li><input type=checkbox  id=pa_stamford>Stamford
+<li><input type=checkbox id=pa_stamford_vilages>Stamford villages
+<li><input type=checkbox id=pa_oakham>Oakham
+<li><input type=checkbox id=pa_oakham_villages>Oakham villages
+<li><input type=checkbox id=pa_uppingham>Uppingham
+<li><input type=checkbox id=pa_uppingham_villages>Uppingham villages
+<li><input type=checkbox id=pa_the_deepings>The Deepings
+<li><input type=checkbox id=pa_other>Other, please specify<input id=pa_other_text>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Maximum budget</legend>
+<input id=pa_budget>
+</fieldset>
+<fieldset>
+<legend>Minimum number of bedrooms</legend>
+<input id=pa_rooms>
+</fieldset>
+<fieldset>
+Pets <input type=checkbox id=pa_pets>
+</fieldset>
+<fieldset>
+<legend>Date required by</legend>
+<input id=pa_date>
+</fieldset>
+<input type=hidden value="<?php echo variable_get('dup_property_alert_email') ?>" id=send_to name=send_to>
+<input type=hidden value="<?php echo variable_get('dup_property_alert_name') ?>" id=send_to_name name=send_to_name>
+<input type=hidden value="Property Alert Request" id=subject name=subject>
+<button id=btn_submit_property_alert>Register for alerts</button>
+</form>

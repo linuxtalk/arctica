@@ -1,0 +1,17 @@
+<h2>We're open...</h2>
+<?php
+$days = array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
+foreach($days as $day) {
+	$day_ref = strtolower($day);
+	echo "<div class=day><span class=title>".$day." </span>";
+	
+	if (variable_get('dup_'.$day_ref.'_office_open',0)==0){
+		echo "<span class=closed>Closed</span>";
+	} else {
+		echo "<span class=open>".variable_get('dup_'.$day_ref.'_open_time')."-".variable_get('dup_'.$day_ref.'_close_time')."</span>";
+	}
+	
+	echo "</div>";
+}
+
+

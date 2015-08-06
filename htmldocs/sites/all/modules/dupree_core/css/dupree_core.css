@@ -1,0 +1,24 @@
+#full_testimonials {
+	position: absolute;
+	min-width: 250px;
+	min-height: 250px;
+	background-color: white;
+	border: 1px solid black;
+	display: none;
+	z-index:500;
+	color:black;
+	padding: 10px;
+}
+
+#full_testimonials a {
+	color: inherit !important;
+}
+
+#more_testimonials_close {
+	cursor: pointer;
+}
+
+#map-canvas {
+        width: 750px;
+        height: 775px;
+      }

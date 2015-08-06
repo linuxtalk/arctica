@@ -1,0 +1,7 @@
+name = "dupree_valuation_request"
+description = "Dupree Creative dupree_valuation_request Block"
+core = 7.x
+package = Dupree Creative
+scripts[] = js/dupree_valuation_request.js
+stylesheets[all][] = css/dupree_valuation_request.css
+
